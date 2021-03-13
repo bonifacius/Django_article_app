@@ -1,0 +1,80 @@
+body {
+    background: #b8e0c3 ;
+}
+
+aside {
+    float: left;
+    background: #519665;
+    width: 20 %;
+    padding: 2.5%;
+    /* высота = 100% высоты экрана*/
+    height: 100vh;
+    collor: #000;
+    border-right: 5px solid #88b7ba;
+
+}
+
+aside img {
+    width: 110px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 28px;
+
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    color: #000;
+    display: block;
+    margin-top: 20px;
+   /*Добавим плавность при наведении*/
+   transition: transform .6s ease;
+}
+
+/*Эффект при наведении*/
+aside ul li:hover, aside ul a:hover {
+    color: #ba1a1a;
+    text-decoration: none;
+    /*Увеличивает текст при наведении*/
+    transform: scale(1.05);
+}
+
+main .features {
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1 {font-size: 50px;}
+
+main .features p {max-width: 400px; margin: 20px auto}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+
+}
+
+form {
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+}
+
+
